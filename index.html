@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Taekwondo</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top bg-body-tertiary" data-bs-theme="dark" id="container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="imagens/logo.jpg" alt="logo" width="100px" height="100px"
+                        id="logo"></a>
+                <div class="menu">
+                    <button class="alison" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor"
+                            class="button-menu" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg></button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Escolinha de Taekwondo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <a href="index.html">
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                                      </svg>Home</li>
+                                </a><a href="alunos.html">
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor" class="bi bi-backpack3" viewBox="0 0 16 16">
+                                        <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"/>
+                                        <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A6 6 0 0 1 6 2.34ZM7 2v.083a6 6 0 0 1 2 0V2a1 1 0 1 0-2 0m5.941 2.595.502-1.505-.77-1.027-.532 1.595q.447.427.8.937M3.86 3.658l-.532-1.595-.77 1.027.502 1.505q.352-.51.8-.937M8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5"/>
+                                      </svg>Alunos</li>
+                                </a><a href="termos.html">
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                      </svg>Termos de Serviços</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="coluna-pri">
+            <div style="margin-top: 130px;"> <img src="imagens/equipe-principal.jpg" alt="" id="foto-academia"></div>
+            <div>
+                <h1>Escolinha de Taekwondo</h1>
+                <p id="text-academia-pri">Bem vindo ao site da nossa Escolinha de Taekwondo!
+                    Aqui você vai ver todos os detalhes sobre nossa academia, quem é o professor? quantos alunos têm?
+                    competições e etc. Você também poderá lutas dos nosso atletas e o calendario de competições do ano.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="coluna-seg">
+            <p>O Taekwondo é uma prática que engloba tanto os aspectos físicos quanto os psicológicos. É uma
+                atividade que envolve o desenvolvimento da força, flexibilidade, coordenação e equilíbrio, além de
+                melhorar a saúde
+                cardiovascular e respiratória. Ao mesmo tempo, o Taekwondo também é uma disciplina que ensina
+                valores como respeito,
+                disciplina, perseverança e autocontrole.</p>
+            <img src="imagens/foto1.jpg" alt="" id="foto-segundo">
+
+
+            <p> O Taekwondo é uma arte marcial acessível a todas as idades e habilidades, e pode ser prestigiado
+                tanto por homens quanto por mulheres. Muitas crianças começam a praticar Taekwondo para desenvolver
+                habilidades físicas e mentais importantes, além de aprender valores como respeito e disciplina.
+                Adultos também podem se beneficiar do Taekwondo, seja para melhorar a saúde física e mental, ou para
+                aprender habilidades de defesa pessoal.</p>
+            <img src="imagens/foto2.jpg" alt="" id="foto-segundo">
+
+            <p>Existem diferentes estilos de Taekwondo, mas todos eles se concentram em técnicas específicas e na
+                prática de formas, conhecidas como "poomsae". A prática do Taekwondo também inclui treinamento em
+                sparring, ou seja, luta simulada com um parceiro, usando equipamentos de proteção para garantir a
+                segurança dos praticantes.</p>
+            <img src="imagens/foto3.jpg" alt="" id="foto-segundo">
+
+            <p>Se você está procurando uma atividade física que possa melhorar sua saúde e sua vida em geral, o
+                Taekwondo é uma excelente opção. Com a ajuda de instrutores protegidos e experimentados, você pode
+                aprender as técnicas e os valores fundamentais do Taekwondo e, ao mesmo tempo, se divertir e fazer
+                novas amizades.</p>
+            <img src="imagens/foto4.jpg" alt="" id="foto-segundo">
+
+        </div>
+
+
+        <hr>
+        <div class="coluna-ter">
+            <h1>DIAS DE AULA:</h1>
+            <ul>
+                
+                <li>Terça-feira de 20:00hrs as 21:00</li>
+                <li>Quinta-feira de 20:00hrs as 21:00</li>
+                <li>Sabado de 20:00hrs as 21:00</li>
+            </ul>
+            <p style="font-size: 20px; max-width: 400px; text-align: center;">Academia localizada na Rua João Garcia, Numero 9. Próximo o campo de futebol</p>
+           
+             <img src="imagens/equipe.jpg"  id="equipe">
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Alison Ryan. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
